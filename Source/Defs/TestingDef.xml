@@ -1,0 +1,2072 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ResourceVerbBase" Name="DummyDefsBase" Abstract="True">
+    <description>Wood from trees or other fibrous plants. Useful for building structures and weapons. It is a good fuel for campfires and generators, and can be refined into chemfuel. In a pinch, a piece of wood can be used as a weapon or a leg.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/WoodLog</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <equippedAngleOffset>-20</equippedAngleOffset>
+    <soundInteract>Wood_Drop</soundInteract>
+    <soundDrop>Wood_Drop</soundDrop>
+    <statBases>
+      <MarketValue>1.2</MarketValue>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Mass>0.4</Mass>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>0.5</DeteriorationRate>
+      <StuffPower_Armor_Sharp>0.54</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.54</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.40</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>8</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>4</StuffPower_Insulation_Heat>
+      <SharpDamageMultiplier>0.40</SharpDamageMultiplier>
+      <BluntDamageMultiplier>0.9</BluntDamageMultiplier>
+    </statBases>
+    <burnableByRecipe>true</burnableByRecipe>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <minRewardCount>10</minRewardCount>
+    <stuffProps>
+      <stuffAdjective>wooden</stuffAdjective>
+      <categories>
+        <li>Woody</li>
+      </categories>
+      <commonality>1.00</commonality>
+      <color>(133,97,67)</color>
+      <constructEffect>ConstructWood</constructEffect>
+      <appearance>Planks</appearance>
+      <soundImpactStuff>BulletImpact_Wood</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+      <statFactors>
+        <MaxHitPoints>0.65</MaxHitPoints>
+        <Beauty>1</Beauty>
+        <Flammability>1</Flammability>
+        <WorkToMake>0.7</WorkToMake>
+        <WorkToBuild>0.7</WorkToBuild>
+        <DoorOpenSpeed>1.2</DoorOpenSpeed>
+      </statFactors>
+      <canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+    </stuffProps>
+    <isTechHediff>true</isTechHediff>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <techHediffsTags>
+      <li>Poor</li>
+    </techHediffsTags>
+    <weaponClasses>
+      <li>Melee</li>
+      <li>MeleeBlunt</li>
+      <li>Neolithic</li>
+    </weaponClasses>
+    <tools>
+      <li>
+        <label>log</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <allowedArchonexusCount>150</allowedArchonexusCount>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_1_Copy</defName>
+    <label>WookLog_1</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_2_Copy</defName>
+    <label>WoodLog_2</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_3_Copy</defName>
+    <label>WoodLog_3</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_4_Copy</defName>
+    <label>WoodLog_4</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_5_Copy</defName>
+    <label>WoodLog_5</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_6_Copy</defName>
+    <label>WoodLog_6</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_7_Copy</defName>
+    <label>WoodLog_7</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_8_Copy</defName>
+    <label>WoodLog_8</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_9_Copy</defName>
+    <label>WoodLog_9</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_10_Copy</defName>
+    <label>WoodLog_10</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_11_Copy</defName>
+    <label>WoodLog_11</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_12_Copy</defName>
+    <label>WoodLog_12</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_13_Copy</defName>
+    <label>WoodLog_13</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_14_Copy</defName>
+    <label>WoodLog_14</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_15_Copy</defName>
+    <label>WoodLog_15</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_16_Copy</defName>
+    <label>WoodLog_16</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_17_Copy</defName>
+    <label>WoodLog_17</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_18_Copy</defName>
+    <label>WoodLog_18</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_19_Copy</defName>
+    <label>WoodLog_19</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_20_Copy</defName>
+    <label>WoodLog_20</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_21_Copy</defName>
+    <label>WoodLog_21</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_22_Copy</defName>
+    <label>WoodLog_22</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_23_Copy</defName>
+    <label>WoodLog_23</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_24_Copy</defName>
+    <label>WoodLog_24</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_25_Copy</defName>
+    <label>WoodLog_25</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_26_Copy</defName>
+    <label>WoodLog_26</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_27_Copy</defName>
+    <label>WoodLog_27</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_28_Copy</defName>
+    <label>WoodLog_28</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_29_Copy</defName>
+    <label>WoodLog_29</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_30_Copy</defName>
+    <label>WoodLog_30</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_31_Copy</defName>
+    <label>WoodLog_31</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_32_Copy</defName>
+    <label>WoodLog_32</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_33_Copy</defName>
+    <label>WoodLog_33</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_34_Copy</defName>
+    <label>WoodLog_34</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_35_Copy</defName>
+    <label>WoodLog_35</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_36_Copy</defName>
+    <label>WoodLog_36</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_37_Copy</defName>
+    <label>WoodLog_37</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_38_Copy</defName>
+    <label>WoodLog_38</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_39_Copy</defName>
+    <label>WoodLog_39</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_40_Copy</defName>
+    <label>WoodLog_40</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_41_Copy</defName>
+    <label>WoodLog_41</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_42_Copy</defName>
+    <label>WoodLog_42</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_43_Copy</defName>
+    <label>WoodLog_43</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_44_Copy</defName>
+    <label>WoodLog_44</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_45_Copy</defName>
+    <label>WoodLog_45</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_46_Copy</defName>
+    <label>WoodLog_46</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_47_Copy</defName>
+    <label>WoodLog_47</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_48_Copy</defName>
+    <label>WoodLog_48</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_49_Copy</defName>
+    <label>WoodLog_49</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_50_Copy</defName>
+    <label>WoodLog_50</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_51_Copy</defName>
+    <label>WoodLog_51</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_52_Copy</defName>
+    <label>WoodLog_52</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_53_Copy</defName>
+    <label>WoodLog_53</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_54_Copy</defName>
+    <label>WoodLog_54</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_55_Copy</defName>
+    <label>WoodLog_55</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_56_Copy</defName>
+    <label>WoodLog_56</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_57_Copy</defName>
+    <label>WoodLog_57</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_58_Copy</defName>
+    <label>WoodLog_58</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_59_Copy</defName>
+    <label>WoodLog_59</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_60_Copy</defName>
+    <label>WoodLog_60</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_61_Copy</defName>
+    <label>WoodLog_61</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_62_Copy</defName>
+    <label>WoodLog_62</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_63_Copy</defName>
+    <label>WoodLog_63</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_64_Copy</defName>
+    <label>WoodLog_64</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_65_Copy</defName>
+    <label>WoodLog_65</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_66_Copy</defName>
+    <label>WoodLog_66</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_67_Copy</defName>
+    <label>WoodLog_67</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_68_Copy</defName>
+    <label>WoodLog_68</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_69_Copy</defName>
+    <label>WoodLog_69</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_70_Copy</defName>
+    <label>WoodLog_70</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_71_Copy</defName>
+    <label>WoodLog_71</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_72_Copy</defName>
+    <label>WoodLog_72</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_73_Copy</defName>
+    <label>WoodLog_73</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_74_Copy</defName>
+    <label>WoodLog_74</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_75_Copy</defName>
+    <label>WoodLog_75</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_76_Copy</defName>
+    <label>WoodLog_76</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_77_Copy</defName>
+    <label>WoodLog_77</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_78_Copy</defName>
+    <label>WoodLog_78</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_79_Copy</defName>
+    <label>WoodLog_79</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_80_Copy</defName>
+    <label>WoodLog_80</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_81_Copy</defName>
+    <label>WoodLog_81</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_82_Copy</defName>
+    <label>WoodLog_82</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_83_Copy</defName>
+    <label>WoodLog_83</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_84_Copy</defName>
+    <label>WoodLog_84</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_85_Copy</defName>
+    <label>WoodLog_85</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_86_Copy</defName>
+    <label>WoodLog_86</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_87_Copy</defName>
+    <label>WoodLog_87</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_88_Copy</defName>
+    <label>WoodLog_88</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_89_Copy</defName>
+    <label>WoodLog_89</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_90_Copy</defName>
+    <label>WoodLog_90</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_91_Copy</defName>
+    <label>WoodLog_91</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_92_Copy</defName>
+    <label>WoodLog_92</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_93_Copy</defName>
+    <label>WoodLog_93</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_94_Copy</defName>
+    <label>WoodLog_94</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_95_Copy</defName>
+    <label>WoodLog_95</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_96_Copy</defName>
+    <label>WoodLog_96</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_97_Copy</defName>
+    <label>WoodLog_97</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_98_Copy</defName>
+    <label>WoodLog_98</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_99_Copy</defName>
+    <label>WoodLog_99</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_100_Copy</defName>
+    <label>WoodLog_100</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_101_Copy</defName>
+    <label>WoodLog_101</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_102_Copy</defName>
+    <label>WoodLog_102</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_103_Copy</defName>
+    <label>WoodLog_103</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_104_Copy</defName>
+    <label>WoodLog_104</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_105_Copy</defName>
+    <label>WoodLog_105</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_106_Copy</defName>
+    <label>WoodLog_106</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_107_Copy</defName>
+    <label>WoodLog_107</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_108_Copy</defName>
+    <label>WoodLog_108</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_109_Copy</defName>
+    <label>WoodLog_109</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_110_Copy</defName>
+    <label>WoodLog_110</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_111_Copy</defName>
+    <label>WoodLog_111</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_112_Copy</defName>
+    <label>WoodLog_112</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_113_Copy</defName>
+    <label>WoodLog_113</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_114_Copy</defName>
+    <label>WoodLog_114</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_115_Copy</defName>
+    <label>WoodLog_115</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_116_Copy</defName>
+    <label>WoodLog_116</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_117_Copy</defName>
+    <label>WoodLog_117</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_118_Copy</defName>
+    <label>WoodLog_118</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_119_Copy</defName>
+    <label>WoodLog_119</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_120_Copy</defName>
+    <label>WoodLog_120</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_121_Copy</defName>
+    <label>WoodLog_121</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_122_Copy</defName>
+    <label>WoodLog_122</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_123_Copy</defName>
+    <label>WoodLog_123</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_124_Copy</defName>
+    <label>WoodLog_124</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_125_Copy</defName>
+    <label>WoodLog_125</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_126_Copy</defName>
+    <label>WoodLog_126</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_127_Copy</defName>
+    <label>WoodLog_127</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_128_Copy</defName>
+    <label>WoodLog_128</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_129_Copy</defName>
+    <label>WoodLog_129</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_130_Copy</defName>
+    <label>WoodLog_130</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_131_Copy</defName>
+    <label>WoodLog_131</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_132_Copy</defName>
+    <label>WoodLog_132</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_133_Copy</defName>
+    <label>WoodLog_133</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_134_Copy</defName>
+    <label>WoodLog_134</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_135_Copy</defName>
+    <label>WoodLog_135</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_136_Copy</defName>
+    <label>WoodLog_136</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_137_Copy</defName>
+    <label>WoodLog_137</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_138_Copy</defName>
+    <label>WoodLog_138</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_139_Copy</defName>
+    <label>WoodLog_139</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_140_Copy</defName>
+    <label>WoodLog_140</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_141_Copy</defName>
+    <label>WoodLog_141</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_142_Copy</defName>
+    <label>WoodLog_142</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_143_Copy</defName>
+    <label>WoodLog_143</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_144_Copy</defName>
+    <label>WoodLog_144</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_145_Copy</defName>
+    <label>WoodLog_145</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_146_Copy</defName>
+    <label>WoodLog_146</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_147_Copy</defName>
+    <label>WoodLog_147</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_148_Copy</defName>
+    <label>WoodLog_148</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_149_Copy</defName>
+    <label>WoodLog_149</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_150_Copy</defName>
+    <label>WoodLog_150</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_151_Copy</defName>
+    <label>WoodLog_151</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_152_Copy</defName>
+    <label>WoodLog_152</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_153_Copy</defName>
+    <label>WoodLog_153</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_154_Copy</defName>
+    <label>WoodLog_154</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_155_Copy</defName>
+    <label>WoodLog_155</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_156_Copy</defName>
+    <label>WoodLog_156</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_157_Copy</defName>
+    <label>WoodLog_157</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_158_Copy</defName>
+    <label>WoodLog_158</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_159_Copy</defName>
+    <label>WoodLog_159</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_160_Copy</defName>
+    <label>WoodLog_160</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_161_Copy</defName>
+    <label>WoodLog_161</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_162_Copy</defName>
+    <label>WoodLog_162</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_163_Copy</defName>
+    <label>WoodLog_163</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_164_Copy</defName>
+    <label>WoodLog_164</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_165_Copy</defName>
+    <label>WoodLog_165</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_166_Copy</defName>
+    <label>WoodLog_166</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_167_Copy</defName>
+    <label>WoodLog_167</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_168_Copy</defName>
+    <label>WoodLog_168</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_169_Copy</defName>
+    <label>WoodLog_169</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_170_Copy</defName>
+    <label>WoodLog_170</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_171_Copy</defName>
+    <label>WoodLog_171</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_172_Copy</defName>
+    <label>WoodLog_172</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_173_Copy</defName>
+    <label>WoodLog_173</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_174_Copy</defName>
+    <label>WoodLog_174</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_175_Copy</defName>
+    <label>WoodLog_175</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_176_Copy</defName>
+    <label>WoodLog_176</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_177_Copy</defName>
+    <label>WoodLog_177</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_178_Copy</defName>
+    <label>WoodLog_178</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_179_Copy</defName>
+    <label>WoodLog_179</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_180_Copy</defName>
+    <label>WoodLog_180</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_181_Copy</defName>
+    <label>WoodLog_181</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_182_Copy</defName>
+    <label>WoodLog_182</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_183_Copy</defName>
+    <label>WoodLog_183</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_184_Copy</defName>
+    <label>WoodLog_184</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_185_Copy</defName>
+    <label>WoodLog_185</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_186_Copy</defName>
+    <label>WoodLog_186</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_187_Copy</defName>
+    <label>WoodLog_187</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_188_Copy</defName>
+    <label>WoodLog_188</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_189_Copy</defName>
+    <label>WoodLog_189</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_190_Copy</defName>
+    <label>WoodLog_190</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_191_Copy</defName>
+    <label>WoodLog_191</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_192_Copy</defName>
+    <label>WoodLog_192</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_193_Copy</defName>
+    <label>WoodLog_193</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_194_Copy</defName>
+    <label>WoodLog_194</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_195_Copy</defName>
+    <label>WoodLog_195</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_196_Copy</defName>
+    <label>WoodLog_196</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_197_Copy</defName>
+    <label>WoodLog_197</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_198_Copy</defName>
+    <label>WoodLog_198</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_199_Copy</defName>
+    <label>WoodLog_199</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_200_Copy</defName>
+    <label>WoodLog_200</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_201_Copy</defName>
+    <label>WoodLog_201</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_202_Copy</defName>
+    <label>WoodLog_202</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_203_Copy</defName>
+    <label>WoodLog_203</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_204_Copy</defName>
+    <label>WoodLog_204</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_205_Copy</defName>
+    <label>WoodLog_205</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_206_Copy</defName>
+    <label>WoodLog_206</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_207_Copy</defName>
+    <label>WoodLog_207</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_208_Copy</defName>
+    <label>WoodLog_208</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_209_Copy</defName>
+    <label>WoodLog_209</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_210_Copy</defName>
+    <label>WoodLog_210</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_211_Copy</defName>
+    <label>WoodLog_211</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_212_Copy</defName>
+    <label>WoodLog_212</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_213_Copy</defName>
+    <label>WoodLog_213</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_214_Copy</defName>
+    <label>WoodLog_214</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_215_Copy</defName>
+    <label>WoodLog_215</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_216_Copy</defName>
+    <label>WoodLog_216</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_217_Copy</defName>
+    <label>WoodLog_217</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_218_Copy</defName>
+    <label>WoodLog_218</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_219_Copy</defName>
+    <label>WoodLog_219</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_220_Copy</defName>
+    <label>WoodLog_220</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_221_Copy</defName>
+    <label>WoodLog_221</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_222_Copy</defName>
+    <label>WoodLog_222</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_223_Copy</defName>
+    <label>WoodLog_223</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_224_Copy</defName>
+    <label>WoodLog_224</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_225_Copy</defName>
+    <label>WoodLog_225</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_226_Copy</defName>
+    <label>WoodLog_226</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_227_Copy</defName>
+    <label>WoodLog_227</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_228_Copy</defName>
+    <label>WoodLog_228</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_229_Copy</defName>
+    <label>WoodLog_229</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_230_Copy</defName>
+    <label>WoodLog_230</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_231_Copy</defName>
+    <label>WoodLog_231</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_232_Copy</defName>
+    <label>WoodLog_232</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_233_Copy</defName>
+    <label>WoodLog_233</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_234_Copy</defName>
+    <label>WoodLog_234</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_235_Copy</defName>
+    <label>WoodLog_235</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_236_Copy</defName>
+    <label>WoodLog_236</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_237_Copy</defName>
+    <label>WoodLog_237</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_238_Copy</defName>
+    <label>WoodLog_238</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_239_Copy</defName>
+    <label>WoodLog_239</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_240_Copy</defName>
+    <label>WoodLog_240</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_241_Copy</defName>
+    <label>WoodLog_241</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_242_Copy</defName>
+    <label>WoodLog_242</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_243_Copy</defName>
+    <label>WoodLog_243</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_244_Copy</defName>
+    <label>WoodLog_244</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_245_Copy</defName>
+    <label>WoodLog_245</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_246_Copy</defName>
+    <label>WoodLog_246</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_247_Copy</defName>
+    <label>WoodLog_247</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_248_Copy</defName>
+    <label>WoodLog_248</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_249_Copy</defName>
+    <label>WoodLog_249</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_250_Copy</defName>
+    <label>WoodLog_250</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_251_Copy</defName>
+    <label>WoodLog_251</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_252_Copy</defName>
+    <label>WoodLog_252</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_253_Copy</defName>
+    <label>WoodLog_253</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_254_Copy</defName>
+    <label>WoodLog_254</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_255_Copy</defName>
+    <label>WoodLog_255</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_256_Copy</defName>
+    <label>WoodLog_256</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_257_Copy</defName>
+    <label>WoodLog_257</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_258_Copy</defName>
+    <label>WoodLog_258</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_259_Copy</defName>
+    <label>WoodLog_259</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_260_Copy</defName>
+    <label>WoodLog_260</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_261_Copy</defName>
+    <label>WoodLog_261</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_262_Copy</defName>
+    <label>WoodLog_262</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_263_Copy</defName>
+    <label>WoodLog_263</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_264_Copy</defName>
+    <label>WoodLog_264</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_265_Copy</defName>
+    <label>WoodLog_265</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_266_Copy</defName>
+    <label>WoodLog_266</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_267_Copy</defName>
+    <label>WoodLog_267</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_268_Copy</defName>
+    <label>WoodLog_268</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_269_Copy</defName>
+    <label>WoodLog_269</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_270_Copy</defName>
+    <label>WoodLog_270</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_271_Copy</defName>
+    <label>WoodLog_271</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_272_Copy</defName>
+    <label>WoodLog_272</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_273_Copy</defName>
+    <label>WoodLog_273</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_274_Copy</defName>
+    <label>WoodLog_274</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_275_Copy</defName>
+    <label>WoodLog_275</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_276_Copy</defName>
+    <label>WoodLog_276</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_277_Copy</defName>
+    <label>WoodLog_277</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_278_Copy</defName>
+    <label>WoodLog_278</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_279_Copy</defName>
+    <label>WoodLog_279</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_280_Copy</defName>
+    <label>WoodLog_280</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_281_Copy</defName>
+    <label>WoodLog_281</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_282_Copy</defName>
+    <label>WoodLog_282</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_283_Copy</defName>
+    <label>WoodLog_283</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_284_Copy</defName>
+    <label>WoodLog_284</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_285_Copy</defName>
+    <label>WoodLog_285</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_286_Copy</defName>
+    <label>WoodLog_286</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_287_Copy</defName>
+    <label>WoodLog_287</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_288_Copy</defName>
+    <label>WoodLog_288</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_289_Copy</defName>
+    <label>WoodLog_289</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_290_Copy</defName>
+    <label>WoodLog_290</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_291_Copy</defName>
+    <label>WoodLog_291</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_292_Copy</defName>
+    <label>WoodLog_292</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_293_Copy</defName>
+    <label>WoodLog_293</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_294_Copy</defName>
+    <label>WoodLog_294</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_295_Copy</defName>
+    <label>WoodLog_295</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_296_Copy</defName>
+    <label>WoodLog_296</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_297_Copy</defName>
+    <label>WoodLog_297</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_298_Copy</defName>
+    <label>WoodLog_298</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_299_Copy</defName>
+    <label>WoodLog_299</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_300_Copy</defName>
+    <label>WoodLog_300</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_301_Copy</defName>
+    <label>WoodLog_301</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_302_Copy</defName>
+    <label>WoodLog_302</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_303_Copy</defName>
+    <label>WoodLog_303</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_304_Copy</defName>
+    <label>WoodLog_304</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_305_Copy</defName>
+    <label>WoodLog_305</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_306_Copy</defName>
+    <label>WoodLog_306</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_307_Copy</defName>
+    <label>WoodLog_307</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_308_Copy</defName>
+    <label>WoodLog_308</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_309_Copy</defName>
+    <label>WoodLog_309</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_310_Copy</defName>
+    <label>WoodLog_310</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_311_Copy</defName>
+    <label>WoodLog_311</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_312_Copy</defName>
+    <label>WoodLog_312</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_313_Copy</defName>
+    <label>WoodLog_313</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_314_Copy</defName>
+    <label>WoodLog_314</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_315_Copy</defName>
+    <label>WoodLog_315</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_316_Copy</defName>
+    <label>WoodLog_316</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_317_Copy</defName>
+    <label>WoodLog_317</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_318_Copy</defName>
+    <label>WoodLog_318</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_319_Copy</defName>
+    <label>WoodLog_319</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_320_Copy</defName>
+    <label>WoodLog_320</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_321_Copy</defName>
+    <label>WoodLog_321</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_322_Copy</defName>
+    <label>WoodLog_322</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_323_Copy</defName>
+    <label>WoodLog_323</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_324_Copy</defName>
+    <label>WoodLog_324</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_325_Copy</defName>
+    <label>WoodLog_325</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_326_Copy</defName>
+    <label>WoodLog_326</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_327_Copy</defName>
+    <label>WoodLog_327</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_328_Copy</defName>
+    <label>WoodLog_328</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_329_Copy</defName>
+    <label>WoodLog_329</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_330_Copy</defName>
+    <label>WoodLog_330</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_331_Copy</defName>
+    <label>WoodLog_331</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_332_Copy</defName>
+    <label>WoodLog_332</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_333_Copy</defName>
+    <label>WoodLog_333</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_334_Copy</defName>
+    <label>WoodLog_334</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_335_Copy</defName>
+    <label>WoodLog_335</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_336_Copy</defName>
+    <label>WoodLog_336</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_337_Copy</defName>
+    <label>WoodLog_337</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_338_Copy</defName>
+    <label>WoodLog_338</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_339_Copy</defName>
+    <label>WoodLog_339</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_340_Copy</defName>
+    <label>WoodLog_340</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_341_Copy</defName>
+    <label>WoodLog_341</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_342_Copy</defName>
+    <label>WoodLog_342</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_343_Copy</defName>
+    <label>WoodLog_343</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_344_Copy</defName>
+    <label>WoodLog_344</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_345_Copy</defName>
+    <label>WoodLog_345</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_346_Copy</defName>
+    <label>WoodLog_346</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_347_Copy</defName>
+    <label>WoodLog_347</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_348_Copy</defName>
+    <label>WoodLog_348</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_349_Copy</defName>
+    <label>WoodLog_349</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_350_Copy</defName>
+    <label>WoodLog_350</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_351_Copy</defName>
+    <label>WoodLog_351</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_352_Copy</defName>
+    <label>WoodLog_352</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_353_Copy</defName>
+    <label>WoodLog_353</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_354_Copy</defName>
+    <label>WoodLog_354</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_355_Copy</defName>
+    <label>WoodLog_355</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_356_Copy</defName>
+    <label>WoodLog_356</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_357_Copy</defName>
+    <label>WoodLog_357</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_358_Copy</defName>
+    <label>WoodLog_358</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_359_Copy</defName>
+    <label>WoodLog_359</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_360_Copy</defName>
+    <label>WoodLog_360</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_361_Copy</defName>
+    <label>WoodLog_361</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_362_Copy</defName>
+    <label>WoodLog_362</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_363_Copy</defName>
+    <label>WoodLog_363</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_364_Copy</defName>
+    <label>WoodLog_364</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_365_Copy</defName>
+    <label>WoodLog_365</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_366_Copy</defName>
+    <label>WoodLog_366</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_367_Copy</defName>
+    <label>WoodLog_367</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_368_Copy</defName>
+    <label>WoodLog_368</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_369_Copy</defName>
+    <label>WoodLog_369</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_370_Copy</defName>
+    <label>WoodLog_370</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_371_Copy</defName>
+    <label>WoodLog_371</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_372_Copy</defName>
+    <label>WoodLog_372</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_373_Copy</defName>
+    <label>WoodLog_373</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_374_Copy</defName>
+    <label>WoodLog_374</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_375_Copy</defName>
+    <label>WoodLog_375</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_376_Copy</defName>
+    <label>WoodLog_376</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_377_Copy</defName>
+    <label>WoodLog_377</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_378_Copy</defName>
+    <label>WoodLog_378</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_379_Copy</defName>
+    <label>WoodLog_379</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_380_Copy</defName>
+    <label>WoodLog_380</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_381_Copy</defName>
+    <label>WoodLog_381</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_382_Copy</defName>
+    <label>WoodLog_382</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_383_Copy</defName>
+    <label>WoodLog_383</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_384_Copy</defName>
+    <label>WoodLog_384</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_385_Copy</defName>
+    <label>WoodLog_385</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_386_Copy</defName>
+    <label>WoodLog_386</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_387_Copy</defName>
+    <label>WoodLog_387</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_388_Copy</defName>
+    <label>WoodLog_388</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_389_Copy</defName>
+    <label>WoodLog_389</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_390_Copy</defName>
+    <label>WoodLog_390</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_391_Copy</defName>
+    <label>WoodLog_391</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_392_Copy</defName>
+    <label>WoodLog_392</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_393_Copy</defName>
+    <label>WoodLog_393</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_394_Copy</defName>
+    <label>WoodLog_394</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_395_Copy</defName>
+    <label>WoodLog_395</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_396_Copy</defName>
+    <label>WoodLog_396</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_397_Copy</defName>
+    <label>WoodLog_397</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_398_Copy</defName>
+    <label>WoodLog_398</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_399_Copy</defName>
+    <label>WoodLog_399</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_400_Copy</defName>
+    <label>WoodLog_400</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_401_Copy</defName>
+    <label>WoodLog_401</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_402_Copy</defName>
+    <label>WoodLog_402</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_403_Copy</defName>
+    <label>WoodLog_403</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_404_Copy</defName>
+    <label>WoodLog_404</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_405_Copy</defName>
+    <label>WoodLog_405</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_406_Copy</defName>
+    <label>WoodLog_406</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_407_Copy</defName>
+    <label>WoodLog_407</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_408_Copy</defName>
+    <label>WoodLog_408</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_409_Copy</defName>
+    <label>WoodLog_409</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_410_Copy</defName>
+    <label>WoodLog_410</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_411_Copy</defName>
+    <label>WoodLog_411</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_412_Copy</defName>
+    <label>WoodLog_412</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_413_Copy</defName>
+    <label>WoodLog_413</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_414_Copy</defName>
+    <label>WoodLog_414</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_415_Copy</defName>
+    <label>WoodLog_415</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_416_Copy</defName>
+    <label>WoodLog_416</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_417_Copy</defName>
+    <label>WoodLog_417</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_418_Copy</defName>
+    <label>WoodLog_418</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_419_Copy</defName>
+    <label>WoodLog_419</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_420_Copy</defName>
+    <label>WoodLog_420</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_421_Copy</defName>
+    <label>WoodLog_421</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_422_Copy</defName>
+    <label>WoodLog_422</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_423_Copy</defName>
+    <label>WoodLog_423</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_424_Copy</defName>
+    <label>WoodLog_424</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_425_Copy</defName>
+    <label>WoodLog_425</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_426_Copy</defName>
+    <label>WoodLog_426</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_427_Copy</defName>
+    <label>WoodLog_427</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_428_Copy</defName>
+    <label>WoodLog_428</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_429_Copy</defName>
+    <label>WoodLog_429</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_430_Copy</defName>
+    <label>WoodLog_430</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_431_Copy</defName>
+    <label>WoodLog_431</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_432_Copy</defName>
+    <label>WoodLog_432</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_433_Copy</defName>
+    <label>WoodLog_433</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_434_Copy</defName>
+    <label>WoodLog_434</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_435_Copy</defName>
+    <label>WoodLog_435</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_436_Copy</defName>
+    <label>WoodLog_436</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_437_Copy</defName>
+    <label>WoodLog_437</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_438_Copy</defName>
+    <label>WoodLog_438</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_439_Copy</defName>
+    <label>WoodLog_439</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_440_Copy</defName>
+    <label>WoodLog_440</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_441_Copy</defName>
+    <label>WoodLog_441</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_442_Copy</defName>
+    <label>WoodLog_442</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_443_Copy</defName>
+    <label>WoodLog_443</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_444_Copy</defName>
+    <label>WoodLog_444</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_445_Copy</defName>
+    <label>WoodLog_445</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_446_Copy</defName>
+    <label>WoodLog_446</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_447_Copy</defName>
+    <label>WoodLog_447</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_448_Copy</defName>
+    <label>WoodLog_448</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_449_Copy</defName>
+    <label>WoodLog_449</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_450_Copy</defName>
+    <label>WoodLog_450</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_451_Copy</defName>
+    <label>WoodLog_451</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_452_Copy</defName>
+    <label>WoodLog_452</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_453_Copy</defName>
+    <label>WoodLog_453</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_454_Copy</defName>
+    <label>WoodLog_454</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_455_Copy</defName>
+    <label>WoodLog_455</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_456_Copy</defName>
+    <label>WoodLog_456</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_457_Copy</defName>
+    <label>WoodLog_457</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_458_Copy</defName>
+    <label>WoodLog_458</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_459_Copy</defName>
+    <label>WoodLog_459</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_460_Copy</defName>
+    <label>WoodLog_460</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_461_Copy</defName>
+    <label>WoodLog_461</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_462_Copy</defName>
+    <label>WoodLog_462</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_463_Copy</defName>
+    <label>WoodLog_463</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_464_Copy</defName>
+    <label>WoodLog_464</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_465_Copy</defName>
+    <label>WoodLog_465</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_466_Copy</defName>
+    <label>WoodLog_466</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_467_Copy</defName>
+    <label>WoodLog_467</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_468_Copy</defName>
+    <label>WoodLog_468</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_469_Copy</defName>
+    <label>WoodLog_469</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_470_Copy</defName>
+    <label>WoodLog_470</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_471_Copy</defName>
+    <label>WoodLog_471</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_472_Copy</defName>
+    <label>WoodLog_472</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_473_Copy</defName>
+    <label>WoodLog_473</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_474_Copy</defName>
+    <label>WoodLog_474</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_475_Copy</defName>
+    <label>WoodLog_475</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_476_Copy</defName>
+    <label>WoodLog_476</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_477_Copy</defName>
+    <label>WoodLog_477</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_478_Copy</defName>
+    <label>WoodLog_478</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_479_Copy</defName>
+    <label>WoodLog_479</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_480_Copy</defName>
+    <label>WoodLog_480</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_481_Copy</defName>
+    <label>WoodLog_481</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_482_Copy</defName>
+    <label>WoodLog_482</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_483_Copy</defName>
+    <label>WoodLog_483</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_484_Copy</defName>
+    <label>WoodLog_484</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_485_Copy</defName>
+    <label>WoodLog_485</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_486_Copy</defName>
+    <label>WoodLog_486</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_487_Copy</defName>
+    <label>WoodLog_487</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_488_Copy</defName>
+    <label>WoodLog_488</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_489_Copy</defName>
+    <label>WoodLog_489</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_490_Copy</defName>
+    <label>WoodLog_490</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_491_Copy</defName>
+    <label>WoodLog_491</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_492_Copy</defName>
+    <label>WoodLog_492</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_493_Copy</defName>
+    <label>WoodLog_493</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_494_Copy</defName>
+    <label>WoodLog_494</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_495_Copy</defName>
+    <label>WoodLog_495</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_496_Copy</defName>
+    <label>WoodLog_496</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_497_Copy</defName>
+    <label>WoodLog_497</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_498_Copy</defName>
+    <label>WoodLog_498</label>
+  </ThingDef>
+  <ThingDef ParentName="DummyDefsBase">
+    <defName>WoodLog_499_Copy</defName>
+    <label>WoodLog_499</label>
+  </ThingDef>
+</Defs>

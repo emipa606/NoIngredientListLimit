@@ -1,0 +1,4 @@
+# Changelog for NoIngredientListLimit
+
+1.3.0 - First publish
+
