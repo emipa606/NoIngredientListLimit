@@ -46,7 +46,7 @@
         <WorkToBuild>0.7</WorkToBuild>
         <DoorOpenSpeed>1.2</DoorOpenSpeed>
       </statFactors>
-      <canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+      <!-- <canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff> -->
     </stuffProps>
     <isTechHediff>true</isTechHediff>
     <thingCategories>
@@ -55,11 +55,11 @@
     <techHediffsTags>
       <li>Poor</li>
     </techHediffsTags>
-    <weaponClasses>
-      <li>Melee</li>
-      <li>MeleeBlunt</li>
-      <li>Neolithic</li>
-    </weaponClasses>
+    <!-- <weaponClasses> -->
+    <!-- <li>Melee</li> -->
+    <!-- <li>MeleeBlunt</li> -->
+    <!-- <li>Neolithic</li> -->
+    <!-- </weaponClasses> -->
     <tools>
       <li>
         <label>log</label>
@@ -71,7 +71,7 @@
       </li>
     </tools>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-    <allowedArchonexusCount>150</allowedArchonexusCount>
+    <!-- <allowedArchonexusCount>150</allowedArchonexusCount> -->
   </ThingDef>
   <ThingDef ParentName="DummyDefsBase">
     <defName>WoodLog_1_Copy</defName>
