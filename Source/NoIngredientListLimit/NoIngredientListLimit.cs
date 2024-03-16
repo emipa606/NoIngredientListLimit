@@ -11,11 +11,6 @@ public static class NoIngredientListLimit
     {
         var harmony = new Harmony("Mlie.NoIngredientListLimit");
         harmony.PatchAll(Assembly.GetExecutingAssembly());
-        LogMessage("Increasing ingredient list-window x10");
-    }
-
-    public static void LogMessage(string message)
-    {
-        Log.Message($"[NoIngredientListLimit]: {message}");
+        Log.Message("[NoIngredientListLimit]: Increasing ingredient list-window x10");
     }
 }
