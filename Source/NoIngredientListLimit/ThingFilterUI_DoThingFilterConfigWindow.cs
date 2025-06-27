@@ -4,7 +4,7 @@ using Verse;
 
 namespace NoIngredientListLimit;
 
-[HarmonyPatch(typeof(ThingFilterUI), "DoThingFilterConfigWindow")]
+[HarmonyPatch(typeof(ThingFilterUI), nameof(ThingFilterUI.DoThingFilterConfigWindow))]
 public static class ThingFilterUI_DoThingFilterConfigWindow
 {
     private static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
