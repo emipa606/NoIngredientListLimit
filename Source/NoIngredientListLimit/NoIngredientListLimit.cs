@@ -9,7 +9,6 @@ public static class NoIngredientListLimit
 {
     static NoIngredientListLimit()
     {
-        var harmony = new Harmony("Mlie.NoIngredientListLimit");
-        harmony.PatchAll(Assembly.GetExecutingAssembly());
+        new Harmony("Mlie.NoIngredientListLimit").PatchAll(Assembly.GetExecutingAssembly());
     }
 }
